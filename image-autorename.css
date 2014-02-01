@@ -1,0 +1,8 @@
+.iar-no .yes,
+.iar-yes .no{
+	display:none;
+}
+.iar-wait,
+.iar-wait a{
+	cursor:wait !important;
+}

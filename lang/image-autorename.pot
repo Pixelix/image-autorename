@@ -1,0 +1,57 @@
+# Copyright (C) 2014 Image Autorename
+# This file is distributed under the same license as the Image Autorename package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Image Autorename 2.0.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/image-autorename\n"
+"POT-Creation-Date: 2014-01-20 18:40:20+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: image-autorename.php:40 image-autorename.php:74
+msgid "Autorename"
+msgstr ""
+
+#: image-autorename.php:50 image-autorename.php:80
+msgid "Off"
+msgstr ""
+
+#: image-autorename.php:53
+msgid "Turn on"
+msgstr ""
+
+#: image-autorename.php:57 image-autorename.php:79
+msgid "On"
+msgstr ""
+
+#: image-autorename.php:60
+msgid "Turn off"
+msgstr ""
+
+#: image-autorename.php:75
+msgid "Are fields will be complete after parent post will be update?"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Image Autorename"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://pixelix.ru/image-autorename/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Automatically complete fields for files attached to the posts."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pixelix"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://pixelix.ru"
+msgstr ""

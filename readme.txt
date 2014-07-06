@@ -1,9 +1,9 @@
 === Image Autorename ===
 Contributors: Pixelix
 Tags: image, rename, attachment, изображение, переименовать, картинка
-Stable tag: 2.0.3
+Stable tag: 2.1
 Requires at least: 3.0.1
-Tested up to: 3.8.1
+Tested up to: 3.9.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,13 @@ If this column there, in the top right corner of the screen and click "display S
 
 == Changelog ==
 
+= 2.1 =
+* Bug is fixed. Now all images is renamed, not only the first 5. Thank you, BlackGrizzly.
+* Tasted with last version of WordPress.
+
+* Исправлена ошибка. Теперь все изображения переименовываются, не только первые 5. Спасибо, BlackGrizzly.
+* Протестировано с последней версией WordPress.
+
 = 2.0.3 =
 * Added marker for selecting the status autocomplete fields for a specific item in a library file.
 * Now the plugin works with all types of records.
@@ -65,6 +72,10 @@ If this column there, in the top right corner of the screen and click "display S
 
 == Upgrade Notice ==
 
+= 2.1 =
+* Bug is fixed. Now all images is renamed, not only the first 5. Thank you, BlackGrizzly.
+* Исправлена ошибка. Теперь все изображения переименовываются, не только первые 5. Спасибо, BlackGrizzly.
+
 = 2.0.3 =
 * Added an option to exclude some files.
 * Добавлена возможность исключить некоторые файлы.
@@ -72,7 +83,3 @@ If this column there, in the top right corner of the screen and click "display S
 = 2.0 =
 * A significant increase in safety. Works faster.
 * Существенное повышение безопасности. Работает быстрее.
-
-= 1.0 =
-* Initial release.
-* Стартовый релиз.

@@ -4,7 +4,7 @@
 * Plugin Name: Image Autorename
 * Plugin URI: http://pixelix.ru/image-autorename/
 * Description: Automatically complete fields for files attached to the posts.
-* Version: 2.0.5
+* Version: 2.1
 * Author: Pixelix
 * Author URI: http://pixelix.ru
 * License: GPL2
@@ -33,7 +33,11 @@ function image_autorename($post_id) {
 	// Берём заголовок записи-родителя (та, к которой сработал хук)
 	$the_title = get_the_title($post_id);
 	// Тип поста attachment, выбираем только прикреплённые к записи
-	$get_att = array( 'post_type' => 'attachment', 'post_parent' => $post_id );
+	$get_att = array(
+		'post_type' => 'attachment',
+		'post_parent' => $post_id,
+		'posts_per_page' => '-1',
+	);
 	// Получаем объекты файлов в массив
 	$attachments = get_posts( $get_att );
 	// Для каждого файла
